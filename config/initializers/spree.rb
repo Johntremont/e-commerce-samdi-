@@ -28,3 +28,5 @@ end
 
 
 Spree.user_class = "Spree::User"
+SpreeI18n::Config.available_locales = [:es] # displayed on frontend select box
+SpreeGlobalize::Config.supported_locales = [:es] # displayed on translation forms
